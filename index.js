@@ -39,7 +39,7 @@ let server = app.listen(
 
 const io = socket(server, {
   cors: {
-    origin: "https://app-chat-room.netlify.app/",
+    origin: "https://app-chat-room.netlify.app",
     methods: ["GET", "POST"],
   },
 });
