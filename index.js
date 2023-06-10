@@ -3,7 +3,7 @@ const app = express();
 const socket = require("socket.io");
 const cors = require("cors");
 
-const { get_Current_User, user_Disconnect, join_User } = require("/util");
+const { get_Current_User, user_Disconnect, join_User } = require("util");
 
 app.use(express());
 
